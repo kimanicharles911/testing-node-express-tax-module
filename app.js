@@ -4,12 +4,14 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const helmet = require('helmet');
+// I imported the helmet library which improves the security of my App.
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
 const app = express();
 app.use(helmet());
+// I executed the helmet middleware function on the the express ap function.
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
