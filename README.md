@@ -7,6 +7,7 @@
 </p>
 ## Description
 > This is a nodejs module used to calculate income tax for citizens of South Africa. Testing has been conducted using the Mocha and Chai libraries. To know how different tax rates were established refer to the below link.
+
 * [HyperionDev task 20](https://github.com/kimanicharles911/testing-node-express-tax-module/blob/master/WD_L2T20_-_Testing_with_Node_and_Express.pdf)
 
 ## Deployed at
