@@ -58,6 +58,7 @@ routes/
 test/
   calculateTax.test.js
 app.js
+calculateTax.js
 package.json
 views/
   error.jade
