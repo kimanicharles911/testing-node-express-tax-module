@@ -5,6 +5,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
+
 ## Description
 
 > This is a nodejs module used to calculate income tax for citizens of South Africa. Testing has been conducted using the Mocha and Chai libraries. To know how different tax rates were established refer to the below link.
