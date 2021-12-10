@@ -28,6 +28,13 @@ npm install
 npm run dev
 ```
 
+##### Test Helmet protection
+* The result of running the below command should be different. Refer to [this video](https://youtu.be/tGMPWVl_l9Y) for more details.
+* Replace the port with the one you use.
+```sh
+curl http://localhost:3000 --include
+```
+
 ##### To Build for Production
 
 ```sh
