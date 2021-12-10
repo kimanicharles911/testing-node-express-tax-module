@@ -65,7 +65,7 @@ views/
   layout.jade
 bin/
   www
-package-lock.json  WD_L2T20_Testing_with_Node_and_Express.pdf
+package-lock.json  WD_L2T20_-_Testing_with_Node_and_Express.pdf
 LICENSE.txt
 public/
   images/
