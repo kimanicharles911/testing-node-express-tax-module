@@ -1,3 +1,5 @@
+// comments on the end of this file.
+
 const expect = require('chai').expect;
 const calculateTax = require('../calculateTax.js');
 
@@ -40,3 +42,12 @@ describe('Tax Calculation Tests', ()=> {
     expect(testFunc(1600000)).to.equal(1252041);
   })
 })
+/* 
+  * I first imported the Chai testing library. 
+  * I then imported the calculateTax module.
+  * I opened the description of my tests on the calculateTax module.
+  * I wrote the testFunc function to reduce code duplication in the test functions.
+  * The testFunc has one paramter and returns the result from the calculateTax module.
+  * I then wrote 8 testing functions that take different levels of income, and use the calculateTax module via the testFuc to check if the correct result is returned.
+  * I also test for impossible incomes like negative 500.
+*/

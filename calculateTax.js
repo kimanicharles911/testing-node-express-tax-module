@@ -1,9 +1,11 @@
+// comments on the end of this file.
+
 exports.calculateTax = (grossIncome) => {
 
-  const calculate = (acc = 0, percentage) => {
-    const decimal = percentage/100;
-    const decimalByGrossIncome = decimal * grossIncome;
-    return acc + decimalByGrossIncome;
+  const calculate = (compulsoryAmount = 0, rate) => {
+    const decimalRate = rate/100;
+    const rateByGrossIncome = decimalRate * grossIncome;
+    return compulsoryAmount + rateByGrossIncome;
   }
 
   if(grossIncome >= 0 && grossIncome <= 195850){
@@ -25,3 +27,9 @@ exports.calculateTax = (grossIncome) => {
   }
 
 };
+/* 
+ * I first create and export a function with one parameter.
+  * I then create a function calculate that will reduce code duplication in the if else condition that has two parameters.
+  * I then create an if else condition that takes in different levels of income ranges with their respective rates.
+  * Each condition returns the result from the calculate function that has two values. The first compulsory amount and the other the taxation rate.
+*/
